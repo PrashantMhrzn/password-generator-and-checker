@@ -3,8 +3,7 @@ import hashlib
 
 
 def request_api_data(hash_char):   
-    url = 'https://api.pwnedpasswords.com/range/'+hash_char
-    res = requests.get(url)  # fetches data from the url and stores it in res
+    res = requests.get('https://api.pwnedpasswords.com/range/'+hash_char)  # fetches data from the url and stores it in res
     if res.status_code != 200:
         raise RuntimeError(f'error fetching: {res.status_code}, check the API and try again')
     return res
