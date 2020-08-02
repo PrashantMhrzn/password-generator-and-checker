@@ -17,4 +17,4 @@ password_generator: python/python3 password_generator/main.py
 ```
 ## License
 
-[MIT](https://github.com/sulavmhrzn/quote_scraper/blob/master/licence.txt)
+[MIT](https://github.com/PrashantMhrzn/password-generator-and-checker/blob/master/LICENSE)
