@@ -1,9 +1,14 @@
-import random
+try:
+    import random
+except ModuleNotFoundError:
+    print('Module not found. Please run pip install -r requirements.txt to install it.')
+    exit()
 
 
-class Password:
-    def ps_gen(self, length):
-        s = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*/?abcdefghijklmnopqrstuvwxyz"
-        # Generates a randon pw from the string 's'
-        pw = "".join(random.sample(s, length))
-        return pw
+def ps_gen(length=1):
+    """
+    Generates a randon pw from the string 's'
+    """
+    s = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*/?abcdefghijklmnopqrstuvwxyz"
+    pw = "".join(random.sample(s, length))
+    return pw
