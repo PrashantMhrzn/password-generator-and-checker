@@ -7,7 +7,7 @@
 ## Installation
 
 ```bash
-pip install -r requirements.txt
+pip/pip3 install -r requirements.txt
 ```
 ## Usage
 
