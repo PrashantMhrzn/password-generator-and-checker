@@ -1,8 +1,8 @@
-# Password Generator And Password Checker
+# Password Generator And Password Checker:rocket:
 
-## Two programs for: 
-  * Generating secure password(s) to user's liking. (password_generator)
-  * Checking leaks of any password(s). (password_checker)
+## Two programs:book: for: 
+  * Generating secure password(s) to user's liking.:wrench: (password_generator)
+  * Checking leaks of any password(s).:mag: (password_checker)
   
 ## Installation
 
